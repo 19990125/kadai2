@@ -1,0 +1,108 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ * {
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ html{
+   display: block;
+ }
+
+ p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+ h1{
+   display: block;
+    font-weight: bold
+
+ }
+
+.tht {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  }
+
+ .thb {
+  margin-left: 1%;
+  font-size: 20px;
+    }
+
+ .tb1 {
+  display: flex;
+ }
+
+ .tai {
+  margin: 0 auto;
+  padding:0;
+  text-align: center;
+  display: inline-block;
+  font-size: 13px;
+  }
+
+  .ds{
+   font-size:15px;
+   flex-direction: row;
+  }
+
+  .ts {
+   font-size:15px;
+   flex-direction: row;
+  }
+
+  .as{
+   font-size: 15px;
+   flex-direction: row;
+  }
+
+  .ss {
+   font-size: 15px;
+   flex-direction: row;
+  }
+
+  ji{
+   margin-top: 20px;
+   margin-left: 30px;
+  }
+
+  .showti {
+   display: flex;
+  }
+
+  .showbo{
+   display: flex;
+  }
+
+  .notification {
+  .notice {
+   background-color: white;
+   color: green;
+   text-align: center;
+ }
+ .alert {
+   background-color: white;
+   color: red;
+   text-align: center;
+ }
+}
+
+
