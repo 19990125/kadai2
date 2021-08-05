@@ -10,18 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_07_16_135758) do
+ActiveRecord::Schema.define(version: 2021_07_13_224704) do
 
   create_table "books", force: :cascade do |t|
-    t.string "title"
-    t.string "body"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string "リーダブルコード"
-    t.string "より良いコードを書くためのシンプルで実践的なテクニック"
-  end
-
-  create_table "cakes", force: :cascade do |t|
     t.string "title"
     t.string "body"
     t.datetime "created_at", null: false
